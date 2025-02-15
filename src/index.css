@@ -16,3 +16,7 @@ body {
 	--font-body: "Roboto", sans-serif;
 	--font-display: "Exo 2", sans-serif;
 }
+
+::selection {
+	@apply bg-blue-500 text-white;
+}
